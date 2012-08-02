@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA95242815C6E560002704E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA95242715C6E560002704E3 /* UIKit.framework */; };
+		CA95242A15C6E560002704E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA95242915C6E560002704E3 /* Foundation.framework */; };
+		CA95242C15C6E560002704E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA95242B15C6E560002704E3 /* CoreGraphics.framework */; };
+		CA95243215C6E560002704E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA95243015C6E560002704E3 /* InfoPlist.strings */; };
+		CA95243415C6E560002704E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95243315C6E560002704E3 /* main.m */; };
+		CA95243815C6E560002704E3 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95243715C6E560002704E3 /* HelloWorldAppDelegate.m */; };
+		CA95243B15C6E560002704E3 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA95243A15C6E560002704E3 /* HelloWorldViewController.m */; };
+		CA95243E15C6E560002704E3 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA95243C15C6E560002704E3 /* HelloWorldViewController.xib */; };
+		CAC08B9015C6E7BE008B265B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC08B8F15C6E7BE008B265B /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA95242315C6E560002704E3 /* SimpleEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA95242715C6E560002704E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA95242915C6E560002704E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA95242B15C6E560002704E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA95242F15C6E560002704E3 /* SimpleEmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleEmail-Info.plist"; sourceTree = "<group>"; };
+		CA95243115C6E560002704E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA95243315C6E560002704E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA95243515C6E560002704E3 /* SimpleEmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleEmail-Prefix.pch"; sourceTree = "<group>"; };
+		CA95243615C6E560002704E3 /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		CA95243715C6E560002704E3 /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		CA95243915C6E560002704E3 /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		CA95243A15C6E560002704E3 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		CA95243D15C6E560002704E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorldViewController.xib; sourceTree = "<group>"; };
+		CAC08B8F15C6E7BE008B265B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA95242015C6E560002704E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC08B9015C6E7BE008B265B /* MessageUI.framework in Frameworks */,
+				CA95242815C6E560002704E3 /* UIKit.framework in Frameworks */,
+				CA95242A15C6E560002704E3 /* Foundation.framework in Frameworks */,
+				CA95242C15C6E560002704E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA95241815C6E55F002704E3 = {
+			isa = PBXGroup;
+			children = (
+				CAC08B8F15C6E7BE008B265B /* MessageUI.framework */,
+				CA95242D15C6E560002704E3 /* SimpleEmail */,
+				CA95242615C6E560002704E3 /* Frameworks */,
+				CA95242415C6E560002704E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA95242415C6E560002704E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA95242315C6E560002704E3 /* SimpleEmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA95242615C6E560002704E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA95242715C6E560002704E3 /* UIKit.framework */,
+				CA95242915C6E560002704E3 /* Foundation.framework */,
+				CA95242B15C6E560002704E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA95242D15C6E560002704E3 /* SimpleEmail */ = {
+			isa = PBXGroup;
+			children = (
+				CA95243615C6E560002704E3 /* HelloWorldAppDelegate.h */,
+				CA95243715C6E560002704E3 /* HelloWorldAppDelegate.m */,
+				CA95243915C6E560002704E3 /* HelloWorldViewController.h */,
+				CA95243A15C6E560002704E3 /* HelloWorldViewController.m */,
+				CA95243C15C6E560002704E3 /* HelloWorldViewController.xib */,
+				CA95242E15C6E560002704E3 /* Supporting Files */,
+			);
+			path = SimpleEmail;
+			sourceTree = "<group>";
+		};
+		CA95242E15C6E560002704E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA95242F15C6E560002704E3 /* SimpleEmail-Info.plist */,
+				CA95243015C6E560002704E3 /* InfoPlist.strings */,
+				CA95243315C6E560002704E3 /* main.m */,
+				CA95243515C6E560002704E3 /* SimpleEmail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA95242215C6E560002704E3 /* SimpleEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA95244115C6E560002704E3 /* Build configuration list for PBXNativeTarget "SimpleEmail" */;
+			buildPhases = (
+				CA95241F15C6E560002704E3 /* Sources */,
+				CA95242015C6E560002704E3 /* Frameworks */,
+				CA95242115C6E560002704E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleEmail;
+			productName = SimpleEmail;
+			productReference = CA95242315C6E560002704E3 /* SimpleEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA95241A15C6E55F002704E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CA95241D15C6E55F002704E3 /* Build configuration list for PBXProject "SimpleEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA95241815C6E55F002704E3;
+			productRefGroup = CA95242415C6E560002704E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA95242215C6E560002704E3 /* SimpleEmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA95242115C6E560002704E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA95243215C6E560002704E3 /* InfoPlist.strings in Resources */,
+				CA95243E15C6E560002704E3 /* HelloWorldViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA95241F15C6E560002704E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA95243415C6E560002704E3 /* main.m in Sources */,
+				CA95243815C6E560002704E3 /* HelloWorldAppDelegate.m in Sources */,
+				CA95243B15C6E560002704E3 /* HelloWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA95243015C6E560002704E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA95243115C6E560002704E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA95243C15C6E560002704E3 /* HelloWorldViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA95243D15C6E560002704E3 /* en */,
+			);
+			name = HelloWorldViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA95243F15C6E560002704E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA95244015C6E560002704E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA95244215C6E560002704E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleEmail/SimpleEmail-Prefix.pch";
+				INFOPLIST_FILE = "SimpleEmail/SimpleEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA95244315C6E560002704E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleEmail/SimpleEmail-Prefix.pch";
+				INFOPLIST_FILE = "SimpleEmail/SimpleEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA95241D15C6E55F002704E3 /* Build configuration list for PBXProject "SimpleEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA95243F15C6E560002704E3 /* Debug */,
+				CA95244015C6E560002704E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA95244115C6E560002704E3 /* Build configuration list for PBXNativeTarget "SimpleEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA95244215C6E560002704E3 /* Debug */,
+				CA95244315C6E560002704E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA95241A15C6E55F002704E3 /* Project object */;
+}
