@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Crt-eW-zJj">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+    </dependencies>
+    <scenes>
+        <!--Scene Three-->
+        <scene sceneID="aY2-4p-zag">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCe-QR-vRp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="YTP-8B-YBe" userLabel="Scene Three" customClass="GenericViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VkV-3Q-YLu">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gtC-ff-WOT">
+                                <rect key="frame" x="124" y="296" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="incrementCountThird:" destination="YTP-8B-YBe" eventType="touchUpInside" id="E8E-2Q-rqX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Scene Three" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="0TB-Co-TbJ">
+                                <rect key="frame" x="99" y="20" width="122" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Sid-yN-LyI">
+                                <rect key="frame" x="75" y="156" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene Three" image="3.png" id="3bf-JT-O35"/>
+                    <connections>
+                        <outlet property="barItem" destination="3bf-JT-O35" id="yVs-YO-8DY"/>
+                        <outlet property="outputLabel" destination="Sid-yN-LyI" id="Hmk-jC-K2T"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="888" y="268"/>
+        </scene>
+        <!--Scene Two-->
+        <scene sceneID="sRG-56-SWZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AF1-oQ-N41" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="WVt-XV-qIl" userLabel="Scene Two" customClass="GenericViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="py4-fm-i9g">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nda-vC-zmB">
+                                <rect key="frame" x="124" y="297" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="incrementCountSecond:" destination="WVt-XV-qIl" eventType="touchUpInside" id="7vN-Jk-Sfc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Scene Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="FFM-wz-RmS">
+                                <rect key="frame" x="117" y="20" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="geK-Aq-hD4">
+                                <rect key="frame" x="75" y="156" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene Two" image="2.png" id="djP-yi-z5X"/>
+                    <connections>
+                        <outlet property="barItem" destination="djP-yi-z5X" id="ULa-oq-ZVk"/>
+                        <outlet property="outputLabel" destination="geK-Aq-hD4" id="baC-OI-z2d"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="501" y="268"/>
+        </scene>
+        <!--Scene One-->
+        <scene sceneID="dqd-1d-sg6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iXS-bW-LSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="kEW-aK-XF0" userLabel="Scene One" customClass="GenericViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Ne-fs-v15">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P3u-SI-j8N">
+                                <rect key="frame" x="124" y="302" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Count">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="incrementCountFirst:" destination="kEW-aK-XF0" eventType="touchUpInside" id="hSy-KU-7RU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Scene One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="SV8-Ah-lLS">
+                                <rect key="frame" x="117" y="20" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="10" id="1UN-dE-Gkn">
+                                <rect key="frame" x="75" y="156" width="170" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scene One" image="1.png" id="ApH-vO-bDt"/>
+                    <connections>
+                        <outlet property="barItem" destination="ApH-vO-bDt" id="aK8-ig-Tx7"/>
+                        <outlet property="outputLabel" destination="1UN-dE-Gkn" id="uNV-nG-nuG"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="144" y="268"/>
+        </scene>
+        <!--Counting Tab Bar Controller View Controller-->
+        <scene sceneID="wgW-m4-EU0">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Lc-qd-31d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController definesPresentationContext="YES" id="Crt-eW-zJj" customClass="CountingTabBarControllerViewController" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qef-7e-qAF">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kEW-aK-XF0" kind="relationship" relationship="viewControllers" id="uyE-WP-u5L"/>
+                        <segue destination="WVt-XV-qIl" kind="relationship" relationship="viewControllers" id="2xY-fs-sg6"/>
+                        <segue destination="YTP-8B-YBe" kind="relationship" relationship="viewControllers" id="gCC-Eg-xQU"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="55" y="-303"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.png" width="32" height="32"/>
+        <image name="2.png" width="32" height="32"/>
+        <image name="3.png" width="32" height="32"/>
+    </resources>
+    <classes>
+        <class className="CountingTabBarControllerViewController" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CountingTabBarControllerViewController.h"/>
+        </class>
+        <class className="GenericViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GenericViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="incrementCountFirst:"/>
+                <relationship kind="action" name="incrementCountSecond:"/>
+                <relationship kind="action" name="incrementCountThird:"/>
+                <relationship kind="outlet" name="barItem" candidateClass="UITabBarItem"/>
+                <relationship kind="outlet" name="outputLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
