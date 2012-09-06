@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA1747EA15F8CEA000A27511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1747E915F8CEA000A27511 /* UIKit.framework */; };
+		CA1747EC15F8CEA000A27511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1747EB15F8CEA000A27511 /* Foundation.framework */; };
+		CA1747EE15F8CEA000A27511 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1747ED15F8CEA000A27511 /* CoreGraphics.framework */; };
+		CA1747F415F8CEA000A27511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA1747F215F8CEA000A27511 /* InfoPlist.strings */; };
+		CA1747F615F8CEA000A27511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1747F515F8CEA000A27511 /* main.m */; };
+		CA1747FA15F8CEA000A27511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1747F915F8CEA000A27511 /* AppDelegate.m */; };
+		CA1747FD15F8CEA000A27511 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA1747FB15F8CEA000A27511 /* MainStoryboard.storyboard */; };
+		CA17480015F8CEA000A27511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1747FF15F8CEA000A27511 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA1747E515F8CEA000A27511 /* SlowCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1747E915F8CEA000A27511 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA1747EB15F8CEA000A27511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA1747ED15F8CEA000A27511 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA1747F115F8CEA000A27511 /* SlowCount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlowCount-Info.plist"; sourceTree = "<group>"; };
+		CA1747F315F8CEA000A27511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA1747F515F8CEA000A27511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA1747F715F8CEA000A27511 /* SlowCount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlowCount-Prefix.pch"; sourceTree = "<group>"; };
+		CA1747F815F8CEA000A27511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA1747F915F8CEA000A27511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA1747FC15F8CEA000A27511 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CA1747FE15F8CEA000A27511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA1747FF15F8CEA000A27511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA1747E215F8CEA000A27511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1747EA15F8CEA000A27511 /* UIKit.framework in Frameworks */,
+				CA1747EC15F8CEA000A27511 /* Foundation.framework in Frameworks */,
+				CA1747EE15F8CEA000A27511 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA1747DA15F8CEA000A27511 = {
+			isa = PBXGroup;
+			children = (
+				CA1747EF15F8CEA000A27511 /* SlowCount */,
+				CA1747E815F8CEA000A27511 /* Frameworks */,
+				CA1747E615F8CEA000A27511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA1747E615F8CEA000A27511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA1747E515F8CEA000A27511 /* SlowCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA1747E815F8CEA000A27511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA1747E915F8CEA000A27511 /* UIKit.framework */,
+				CA1747EB15F8CEA000A27511 /* Foundation.framework */,
+				CA1747ED15F8CEA000A27511 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1747EF15F8CEA000A27511 /* SlowCount */ = {
+			isa = PBXGroup;
+			children = (
+				CA1747F815F8CEA000A27511 /* AppDelegate.h */,
+				CA1747F915F8CEA000A27511 /* AppDelegate.m */,
+				CA1747FB15F8CEA000A27511 /* MainStoryboard.storyboard */,
+				CA1747FE15F8CEA000A27511 /* ViewController.h */,
+				CA1747FF15F8CEA000A27511 /* ViewController.m */,
+				CA1747F015F8CEA000A27511 /* Supporting Files */,
+			);
+			path = SlowCount;
+			sourceTree = "<group>";
+		};
+		CA1747F015F8CEA000A27511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA1747F115F8CEA000A27511 /* SlowCount-Info.plist */,
+				CA1747F215F8CEA000A27511 /* InfoPlist.strings */,
+				CA1747F515F8CEA000A27511 /* main.m */,
+				CA1747F715F8CEA000A27511 /* SlowCount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1747E415F8CEA000A27511 /* SlowCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA17480315F8CEA000A27511 /* Build configuration list for PBXNativeTarget "SlowCount" */;
+			buildPhases = (
+				CA1747E115F8CEA000A27511 /* Sources */,
+				CA1747E215F8CEA000A27511 /* Frameworks */,
+				CA1747E315F8CEA000A27511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowCount;
+			productName = SlowCount;
+			productReference = CA1747E515F8CEA000A27511 /* SlowCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1747DC15F8CEA000A27511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CA1747DF15F8CEA000A27511 /* Build configuration list for PBXProject "SlowCount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA1747DA15F8CEA000A27511;
+			productRefGroup = CA1747E615F8CEA000A27511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA1747E415F8CEA000A27511 /* SlowCount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA1747E315F8CEA000A27511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1747F415F8CEA000A27511 /* InfoPlist.strings in Resources */,
+				CA1747FD15F8CEA000A27511 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1747E115F8CEA000A27511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1747F615F8CEA000A27511 /* main.m in Sources */,
+				CA1747FA15F8CEA000A27511 /* AppDelegate.m in Sources */,
+				CA17480015F8CEA000A27511 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA1747F215F8CEA000A27511 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1747F315F8CEA000A27511 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA1747FB15F8CEA000A27511 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA1747FC15F8CEA000A27511 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA17480115F8CEA000A27511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA17480215F8CEA000A27511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA17480415F8CEA000A27511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowCount/SlowCount-Prefix.pch";
+				INFOPLIST_FILE = "SlowCount/SlowCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA17480515F8CEA000A27511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlowCount/SlowCount-Prefix.pch";
+				INFOPLIST_FILE = "SlowCount/SlowCount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA1747DF15F8CEA000A27511 /* Build configuration list for PBXProject "SlowCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA17480115F8CEA000A27511 /* Debug */,
+				CA17480215F8CEA000A27511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA17480315F8CEA000A27511 /* Build configuration list for PBXNativeTarget "SlowCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA17480415F8CEA000A27511 /* Debug */,
+				CA17480515F8CEA000A27511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1747DC15F8CEA000A27511 /* Project object */;
+}
