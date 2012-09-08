@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADE8F6615FB08B1001A3EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADE8F6515FB08B1001A3EFE /* UIKit.framework */; };
+		CADE8F6815FB08B1001A3EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADE8F6715FB08B1001A3EFE /* Foundation.framework */; };
+		CADE8F6A15FB08B1001A3EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADE8F6915FB08B1001A3EFE /* CoreGraphics.framework */; };
+		CADE8F7015FB08B1001A3EFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADE8F6E15FB08B1001A3EFE /* InfoPlist.strings */; };
+		CADE8F7215FB08B1001A3EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8F7115FB08B1001A3EFE /* main.m */; };
+		CADE8F7615FB08B1001A3EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8F7515FB08B1001A3EFE /* AppDelegate.m */; };
+		CADE8F7915FB08B1001A3EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8F7815FB08B1001A3EFE /* ViewController.m */; };
+		CADE8F7C15FB08B2001A3EFE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADE8F7A15FB08B1001A3EFE /* ViewController.xib */; };
+		CADE8F8415FB0AF7001A3EFE /* ScramblePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8F8315FB0AF7001A3EFE /* ScramblePlayer.m */; };
+		CADE8F8715FB126A001A3EFE /* ScramblerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CADE8F8615FB126A001A3EFE /* ScramblerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CADE8F6115FB08B1001A3EFE /* Scrambler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrambler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADE8F6515FB08B1001A3EFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CADE8F6715FB08B1001A3EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CADE8F6915FB08B1001A3EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CADE8F6D15FB08B1001A3EFE /* Scrambler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scrambler-Info.plist"; sourceTree = "<group>"; };
+		CADE8F6F15FB08B1001A3EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CADE8F7115FB08B1001A3EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADE8F7315FB08B1001A3EFE /* Scrambler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scrambler-Prefix.pch"; sourceTree = "<group>"; };
+		CADE8F7415FB08B1001A3EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CADE8F7515FB08B1001A3EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CADE8F7715FB08B1001A3EFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CADE8F7815FB08B1001A3EFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CADE8F7B15FB08B2001A3EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CADE8F8215FB0AF7001A3EFE /* ScramblePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScramblePlayer.h; sourceTree = "<group>"; };
+		CADE8F8315FB0AF7001A3EFE /* ScramblePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScramblePlayer.m; sourceTree = "<group>"; };
+		CADE8F8515FB126A001A3EFE /* ScramblerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScramblerModel.h; sourceTree = "<group>"; };
+		CADE8F8615FB126A001A3EFE /* ScramblerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScramblerModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADE8F5E15FB08B1001A3EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADE8F6615FB08B1001A3EFE /* UIKit.framework in Frameworks */,
+				CADE8F6815FB08B1001A3EFE /* Foundation.framework in Frameworks */,
+				CADE8F6A15FB08B1001A3EFE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADE8F5615FB08B1001A3EFE = {
+			isa = PBXGroup;
+			children = (
+				CADE8F6B15FB08B1001A3EFE /* Scrambler */,
+				CADE8F6415FB08B1001A3EFE /* Frameworks */,
+				CADE8F6215FB08B1001A3EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADE8F6215FB08B1001A3EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADE8F6115FB08B1001A3EFE /* Scrambler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADE8F6415FB08B1001A3EFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADE8F6515FB08B1001A3EFE /* UIKit.framework */,
+				CADE8F6715FB08B1001A3EFE /* Foundation.framework */,
+				CADE8F6915FB08B1001A3EFE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADE8F6B15FB08B1001A3EFE /* Scrambler */ = {
+			isa = PBXGroup;
+			children = (
+				CADE8F8215FB0AF7001A3EFE /* ScramblePlayer.h */,
+				CADE8F8315FB0AF7001A3EFE /* ScramblePlayer.m */,
+				CADE8F7415FB08B1001A3EFE /* AppDelegate.h */,
+				CADE8F7515FB08B1001A3EFE /* AppDelegate.m */,
+				CADE8F7715FB08B1001A3EFE /* ViewController.h */,
+				CADE8F7815FB08B1001A3EFE /* ViewController.m */,
+				CADE8F7A15FB08B1001A3EFE /* ViewController.xib */,
+				CADE8F6C15FB08B1001A3EFE /* Supporting Files */,
+				CADE8F8515FB126A001A3EFE /* ScramblerModel.h */,
+				CADE8F8615FB126A001A3EFE /* ScramblerModel.m */,
+			);
+			path = Scrambler;
+			sourceTree = "<group>";
+		};
+		CADE8F6C15FB08B1001A3EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CADE8F6D15FB08B1001A3EFE /* Scrambler-Info.plist */,
+				CADE8F6E15FB08B1001A3EFE /* InfoPlist.strings */,
+				CADE8F7115FB08B1001A3EFE /* main.m */,
+				CADE8F7315FB08B1001A3EFE /* Scrambler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADE8F6015FB08B1001A3EFE /* Scrambler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADE8F7F15FB08B2001A3EFE /* Build configuration list for PBXNativeTarget "Scrambler" */;
+			buildPhases = (
+				CADE8F5D15FB08B1001A3EFE /* Sources */,
+				CADE8F5E15FB08B1001A3EFE /* Frameworks */,
+				CADE8F5F15FB08B1001A3EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrambler;
+			productName = Scrambler;
+			productReference = CADE8F6115FB08B1001A3EFE /* Scrambler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADE8F5815FB08B1001A3EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CADE8F5B15FB08B1001A3EFE /* Build configuration list for PBXProject "Scrambler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CADE8F5615FB08B1001A3EFE;
+			productRefGroup = CADE8F6215FB08B1001A3EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADE8F6015FB08B1001A3EFE /* Scrambler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADE8F5F15FB08B1001A3EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADE8F7015FB08B1001A3EFE /* InfoPlist.strings in Resources */,
+				CADE8F7C15FB08B2001A3EFE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADE8F5D15FB08B1001A3EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADE8F7215FB08B1001A3EFE /* main.m in Sources */,
+				CADE8F7615FB08B1001A3EFE /* AppDelegate.m in Sources */,
+				CADE8F7915FB08B1001A3EFE /* ViewController.m in Sources */,
+				CADE8F8415FB0AF7001A3EFE /* ScramblePlayer.m in Sources */,
+				CADE8F8715FB126A001A3EFE /* ScramblerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CADE8F6E15FB08B1001A3EFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADE8F6F15FB08B1001A3EFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CADE8F7A15FB08B1001A3EFE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADE8F7B15FB08B2001A3EFE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADE8F7D15FB08B2001A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CADE8F7E15FB08B2001A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADE8F8015FB08B2001A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrambler/Scrambler-Prefix.pch";
+				INFOPLIST_FILE = "Scrambler/Scrambler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CADE8F8115FB08B2001A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scrambler/Scrambler-Prefix.pch";
+				INFOPLIST_FILE = "Scrambler/Scrambler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADE8F5B15FB08B1001A3EFE /* Build configuration list for PBXProject "Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADE8F7D15FB08B2001A3EFE /* Debug */,
+				CADE8F7E15FB08B2001A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADE8F7F15FB08B2001A3EFE /* Build configuration list for PBXNativeTarget "Scrambler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADE8F8015FB08B2001A3EFE /* Debug */,
+				CADE8F8115FB08B2001A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADE8F5815FB08B1001A3EFE /* Project object */;
+}
