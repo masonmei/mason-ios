@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0F4AC315FC961E0040AD56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F4AC215FC961E0040AD56 /* UIKit.framework */; };
+		CA0F4AC515FC961E0040AD56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F4AC415FC961E0040AD56 /* Foundation.framework */; };
+		CA0F4AC715FC961E0040AD56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F4AC615FC961E0040AD56 /* CoreGraphics.framework */; };
+		CA0F4ACD15FC961E0040AD56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0F4ACB15FC961E0040AD56 /* InfoPlist.strings */; };
+		CA0F4ACF15FC961E0040AD56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4ACE15FC961E0040AD56 /* main.m */; };
+		CA0F4AD315FC961E0040AD56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4AD215FC961E0040AD56 /* AppDelegate.m */; };
+		CA0F4AD615FC961E0040AD56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4AD515FC961E0040AD56 /* ViewController.m */; };
+		CA0F4AD915FC961E0040AD56 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0F4AD715FC961E0040AD56 /* ViewController.xib */; };
+		CA0F4AE115FC96410040AD56 /* BlockerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4AE015FC96410040AD56 /* BlockerView.m */; };
+		CA0F4AE415FC99D00040AD56 /* BlockerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0F4AE315FC99D00040AD56 /* BlockerModel.m */; };
+		CA0F4AF715FC9D720040AD56 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0F4AF515FC9D720040AD56 /* ball.png */; };
+		CA0F4AF815FC9D720040AD56 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0F4AF615FC9D720040AD56 /* paddle.png */; };
+		CA0F4AFA15FCA36A0040AD56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F4AF915FCA36A0040AD56 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0F4ABE15FC961E0040AD56 /* Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0F4AC215FC961E0040AD56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0F4AC415FC961E0040AD56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0F4AC615FC961E0040AD56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0F4ACA15FC961E0040AD56 /* Blocker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blocker-Info.plist"; sourceTree = "<group>"; };
+		CA0F4ACC15FC961E0040AD56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0F4ACE15FC961E0040AD56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0F4AD015FC961E0040AD56 /* Blocker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blocker-Prefix.pch"; sourceTree = "<group>"; };
+		CA0F4AD115FC961E0040AD56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA0F4AD215FC961E0040AD56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA0F4AD415FC961E0040AD56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA0F4AD515FC961E0040AD56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA0F4AD815FC961E0040AD56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CA0F4ADF15FC96410040AD56 /* BlockerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockerView.h; sourceTree = "<group>"; };
+		CA0F4AE015FC96410040AD56 /* BlockerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockerView.m; sourceTree = "<group>"; };
+		CA0F4AE215FC99D00040AD56 /* BlockerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockerModel.h; sourceTree = "<group>"; };
+		CA0F4AE315FC99D00040AD56 /* BlockerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockerModel.m; sourceTree = "<group>"; };
+		CA0F4AF515FC9D720040AD56 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		CA0F4AF615FC9D720040AD56 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		CA0F4AF915FCA36A0040AD56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0F4ABB15FC961E0040AD56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F4AFA15FCA36A0040AD56 /* QuartzCore.framework in Frameworks */,
+				CA0F4AC315FC961E0040AD56 /* UIKit.framework in Frameworks */,
+				CA0F4AC515FC961E0040AD56 /* Foundation.framework in Frameworks */,
+				CA0F4AC715FC961E0040AD56 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0F4AB315FC961E0040AD56 = {
+			isa = PBXGroup;
+			children = (
+				CA0F4AF915FCA36A0040AD56 /* QuartzCore.framework */,
+				CA0F4AC815FC961E0040AD56 /* Blocker */,
+				CA0F4AC115FC961E0040AD56 /* Frameworks */,
+				CA0F4ABF15FC961E0040AD56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0F4ABF15FC961E0040AD56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F4ABE15FC961E0040AD56 /* Blocker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0F4AC115FC961E0040AD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F4AC215FC961E0040AD56 /* UIKit.framework */,
+				CA0F4AC415FC961E0040AD56 /* Foundation.framework */,
+				CA0F4AC615FC961E0040AD56 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0F4AC815FC961E0040AD56 /* Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F4AF515FC9D720040AD56 /* ball.png */,
+				CA0F4AF615FC9D720040AD56 /* paddle.png */,
+				CA0F4AD115FC961E0040AD56 /* AppDelegate.h */,
+				CA0F4AD215FC961E0040AD56 /* AppDelegate.m */,
+				CA0F4AD415FC961E0040AD56 /* ViewController.h */,
+				CA0F4AD515FC961E0040AD56 /* ViewController.m */,
+				CA0F4AD715FC961E0040AD56 /* ViewController.xib */,
+				CA0F4AC915FC961E0040AD56 /* Supporting Files */,
+				CA0F4ADF15FC96410040AD56 /* BlockerView.h */,
+				CA0F4AE015FC96410040AD56 /* BlockerView.m */,
+				CA0F4AE215FC99D00040AD56 /* BlockerModel.h */,
+				CA0F4AE315FC99D00040AD56 /* BlockerModel.m */,
+			);
+			path = Blocker;
+			sourceTree = "<group>";
+		};
+		CA0F4AC915FC961E0040AD56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F4ACA15FC961E0040AD56 /* Blocker-Info.plist */,
+				CA0F4ACB15FC961E0040AD56 /* InfoPlist.strings */,
+				CA0F4ACE15FC961E0040AD56 /* main.m */,
+				CA0F4AD015FC961E0040AD56 /* Blocker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0F4ABD15FC961E0040AD56 /* Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0F4ADC15FC961E0040AD56 /* Build configuration list for PBXNativeTarget "Blocker" */;
+			buildPhases = (
+				CA0F4ABA15FC961E0040AD56 /* Sources */,
+				CA0F4ABB15FC961E0040AD56 /* Frameworks */,
+				CA0F4ABC15FC961E0040AD56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blocker;
+			productName = Blocker;
+			productReference = CA0F4ABE15FC961E0040AD56 /* Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0F4AB515FC961E0040AD56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CA0F4AB815FC961E0040AD56 /* Build configuration list for PBXProject "Blocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA0F4AB315FC961E0040AD56;
+			productRefGroup = CA0F4ABF15FC961E0040AD56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0F4ABD15FC961E0040AD56 /* Blocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0F4ABC15FC961E0040AD56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F4ACD15FC961E0040AD56 /* InfoPlist.strings in Resources */,
+				CA0F4AD915FC961E0040AD56 /* ViewController.xib in Resources */,
+				CA0F4AF715FC9D720040AD56 /* ball.png in Resources */,
+				CA0F4AF815FC9D720040AD56 /* paddle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0F4ABA15FC961E0040AD56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0F4ACF15FC961E0040AD56 /* main.m in Sources */,
+				CA0F4AD315FC961E0040AD56 /* AppDelegate.m in Sources */,
+				CA0F4AD615FC961E0040AD56 /* ViewController.m in Sources */,
+				CA0F4AE115FC96410040AD56 /* BlockerView.m in Sources */,
+				CA0F4AE415FC99D00040AD56 /* BlockerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA0F4ACB15FC961E0040AD56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0F4ACC15FC961E0040AD56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0F4AD715FC961E0040AD56 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0F4AD815FC961E0040AD56 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0F4ADA15FC961E0040AD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0F4ADB15FC961E0040AD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0F4ADD15FC961E0040AD56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blocker/Blocker-Prefix.pch";
+				INFOPLIST_FILE = "Blocker/Blocker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0F4ADE15FC961E0040AD56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Blocker/Blocker-Prefix.pch";
+				INFOPLIST_FILE = "Blocker/Blocker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0F4AB815FC961E0040AD56 /* Build configuration list for PBXProject "Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F4ADA15FC961E0040AD56 /* Debug */,
+				CA0F4ADB15FC961E0040AD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0F4ADC15FC961E0040AD56 /* Build configuration list for PBXNativeTarget "Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F4ADD15FC961E0040AD56 /* Debug */,
+				CA0F4ADE15FC961E0040AD56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0F4AB515FC961E0040AD56 /* Project object */;
+}
