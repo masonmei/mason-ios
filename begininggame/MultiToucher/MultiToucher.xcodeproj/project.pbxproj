@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA2A2C09160586DC009C0D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C08160586DC009C0D75 /* UIKit.framework */; };
+		CA2A2C0B160586DC009C0D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C0A160586DC009C0D75 /* Foundation.framework */; };
+		CA2A2C0D160586DC009C0D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C0C160586DC009C0D75 /* CoreGraphics.framework */; };
+		CA2A2C13160586DC009C0D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA2A2C11160586DC009C0D75 /* InfoPlist.strings */; };
+		CA2A2C15160586DC009C0D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C14160586DC009C0D75 /* main.m */; };
+		CA2A2C19160586DC009C0D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C18160586DC009C0D75 /* AppDelegate.m */; };
+		CA2A2C1C160586DC009C0D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C1B160586DC009C0D75 /* ViewController.m */; };
+		CA2A2C1F160586DC009C0D75 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2A2C1D160586DC009C0D75 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA2A2C04160586DC009C0D75 /* MultiToucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiToucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A2C08160586DC009C0D75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA2A2C0A160586DC009C0D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA2A2C0C160586DC009C0D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA2A2C10160586DC009C0D75 /* MultiToucher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiToucher-Info.plist"; sourceTree = "<group>"; };
+		CA2A2C12160586DC009C0D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA2A2C14160586DC009C0D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA2A2C16160586DC009C0D75 /* MultiToucher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiToucher-Prefix.pch"; sourceTree = "<group>"; };
+		CA2A2C17160586DC009C0D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA2A2C18160586DC009C0D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA2A2C1A160586DC009C0D75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA2A2C1B160586DC009C0D75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA2A2C1E160586DC009C0D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2A2C01160586DC009C0D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C09160586DC009C0D75 /* UIKit.framework in Frameworks */,
+				CA2A2C0B160586DC009C0D75 /* Foundation.framework in Frameworks */,
+				CA2A2C0D160586DC009C0D75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2A2BF9160586DC009C0D75 = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C0E160586DC009C0D75 /* MultiToucher */,
+				CA2A2C07160586DC009C0D75 /* Frameworks */,
+				CA2A2C05160586DC009C0D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2A2C05160586DC009C0D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C04160586DC009C0D75 /* MultiToucher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2A2C07160586DC009C0D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C08160586DC009C0D75 /* UIKit.framework */,
+				CA2A2C0A160586DC009C0D75 /* Foundation.framework */,
+				CA2A2C0C160586DC009C0D75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2A2C0E160586DC009C0D75 /* MultiToucher */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C17160586DC009C0D75 /* AppDelegate.h */,
+				CA2A2C18160586DC009C0D75 /* AppDelegate.m */,
+				CA2A2C1A160586DC009C0D75 /* ViewController.h */,
+				CA2A2C1B160586DC009C0D75 /* ViewController.m */,
+				CA2A2C1D160586DC009C0D75 /* ViewController.xib */,
+				CA2A2C0F160586DC009C0D75 /* Supporting Files */,
+			);
+			path = MultiToucher;
+			sourceTree = "<group>";
+		};
+		CA2A2C0F160586DC009C0D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C10160586DC009C0D75 /* MultiToucher-Info.plist */,
+				CA2A2C11160586DC009C0D75 /* InfoPlist.strings */,
+				CA2A2C14160586DC009C0D75 /* main.m */,
+				CA2A2C16160586DC009C0D75 /* MultiToucher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2A2C03160586DC009C0D75 /* MultiToucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2A2C22160586DC009C0D75 /* Build configuration list for PBXNativeTarget "MultiToucher" */;
+			buildPhases = (
+				CA2A2C00160586DC009C0D75 /* Sources */,
+				CA2A2C01160586DC009C0D75 /* Frameworks */,
+				CA2A2C02160586DC009C0D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiToucher;
+			productName = MultiToucher;
+			productReference = CA2A2C04160586DC009C0D75 /* MultiToucher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA2A2BFB160586DC009C0D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CA2A2BFE160586DC009C0D75 /* Build configuration list for PBXProject "MultiToucher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA2A2BF9160586DC009C0D75;
+			productRefGroup = CA2A2C05160586DC009C0D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2A2C03160586DC009C0D75 /* MultiToucher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2A2C02160586DC009C0D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C13160586DC009C0D75 /* InfoPlist.strings in Resources */,
+				CA2A2C1F160586DC009C0D75 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2A2C00160586DC009C0D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C15160586DC009C0D75 /* main.m in Sources */,
+				CA2A2C19160586DC009C0D75 /* AppDelegate.m in Sources */,
+				CA2A2C1C160586DC009C0D75 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA2A2C11160586DC009C0D75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A2C12160586DC009C0D75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA2A2C1D160586DC009C0D75 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A2C1E160586DC009C0D75 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2A2C20160586DC009C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA2A2C21160586DC009C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2A2C23160586DC009C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiToucher/MultiToucher-Prefix.pch";
+				INFOPLIST_FILE = "MultiToucher/MultiToucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA2A2C24160586DC009C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiToucher/MultiToucher-Prefix.pch";
+				INFOPLIST_FILE = "MultiToucher/MultiToucher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA2A2BFE160586DC009C0D75 /* Build configuration list for PBXProject "MultiToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A2C20160586DC009C0D75 /* Debug */,
+				CA2A2C21160586DC009C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2A2C22160586DC009C0D75 /* Build configuration list for PBXNativeTarget "MultiToucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A2C23160586DC009C0D75 /* Debug */,
+				CA2A2C24160586DC009C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA2A2BFB160586DC009C0D75 /* Project object */;
+}

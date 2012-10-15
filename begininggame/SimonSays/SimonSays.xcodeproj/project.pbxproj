@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA2A2C3516058AD5009C0D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C3416058AD5009C0D75 /* UIKit.framework */; };
+		CA2A2C3716058AD5009C0D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C3616058AD5009C0D75 /* Foundation.framework */; };
+		CA2A2C3916058AD5009C0D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A2C3816058AD5009C0D75 /* CoreGraphics.framework */; };
+		CA2A2C3F16058AD5009C0D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA2A2C3D16058AD5009C0D75 /* InfoPlist.strings */; };
+		CA2A2C4116058AD5009C0D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C4016058AD5009C0D75 /* main.m */; };
+		CA2A2C4516058AD5009C0D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C4416058AD5009C0D75 /* AppDelegate.m */; };
+		CA2A2C4816058AD5009C0D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C4716058AD5009C0D75 /* ViewController.m */; };
+		CA2A2C4B16058AD5009C0D75 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA2A2C4916058AD5009C0D75 /* ViewController.xib */; };
+		CA2A2C5316058B03009C0D75 /* ShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2A2C5216058B03009C0D75 /* ShapeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA2A2C3016058AD5009C0D75 /* SimonSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A2C3416058AD5009C0D75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA2A2C3616058AD5009C0D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA2A2C3816058AD5009C0D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA2A2C3C16058AD5009C0D75 /* SimonSays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimonSays-Info.plist"; sourceTree = "<group>"; };
+		CA2A2C3E16058AD5009C0D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA2A2C4016058AD5009C0D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA2A2C4216058AD5009C0D75 /* SimonSays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimonSays-Prefix.pch"; sourceTree = "<group>"; };
+		CA2A2C4316058AD5009C0D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA2A2C4416058AD5009C0D75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA2A2C4616058AD5009C0D75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA2A2C4716058AD5009C0D75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA2A2C4A16058AD5009C0D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CA2A2C5116058B03009C0D75 /* ShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeView.h; sourceTree = "<group>"; };
+		CA2A2C5216058B03009C0D75 /* ShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2A2C2D16058AD5009C0D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C3516058AD5009C0D75 /* UIKit.framework in Frameworks */,
+				CA2A2C3716058AD5009C0D75 /* Foundation.framework in Frameworks */,
+				CA2A2C3916058AD5009C0D75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2A2C2516058AD5009C0D75 = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C3A16058AD5009C0D75 /* SimonSays */,
+				CA2A2C3316058AD5009C0D75 /* Frameworks */,
+				CA2A2C3116058AD5009C0D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2A2C3116058AD5009C0D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C3016058AD5009C0D75 /* SimonSays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2A2C3316058AD5009C0D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C3416058AD5009C0D75 /* UIKit.framework */,
+				CA2A2C3616058AD5009C0D75 /* Foundation.framework */,
+				CA2A2C3816058AD5009C0D75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2A2C3A16058AD5009C0D75 /* SimonSays */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C4316058AD5009C0D75 /* AppDelegate.h */,
+				CA2A2C4416058AD5009C0D75 /* AppDelegate.m */,
+				CA2A2C4616058AD5009C0D75 /* ViewController.h */,
+				CA2A2C4716058AD5009C0D75 /* ViewController.m */,
+				CA2A2C4916058AD5009C0D75 /* ViewController.xib */,
+				CA2A2C3B16058AD5009C0D75 /* Supporting Files */,
+				CA2A2C5116058B03009C0D75 /* ShapeView.h */,
+				CA2A2C5216058B03009C0D75 /* ShapeView.m */,
+			);
+			path = SimonSays;
+			sourceTree = "<group>";
+		};
+		CA2A2C3B16058AD5009C0D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A2C3C16058AD5009C0D75 /* SimonSays-Info.plist */,
+				CA2A2C3D16058AD5009C0D75 /* InfoPlist.strings */,
+				CA2A2C4016058AD5009C0D75 /* main.m */,
+				CA2A2C4216058AD5009C0D75 /* SimonSays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2A2C2F16058AD5009C0D75 /* SimonSays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2A2C4E16058AD5009C0D75 /* Build configuration list for PBXNativeTarget "SimonSays" */;
+			buildPhases = (
+				CA2A2C2C16058AD5009C0D75 /* Sources */,
+				CA2A2C2D16058AD5009C0D75 /* Frameworks */,
+				CA2A2C2E16058AD5009C0D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonSays;
+			productName = SimonSays;
+			productReference = CA2A2C3016058AD5009C0D75 /* SimonSays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA2A2C2716058AD5009C0D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CA2A2C2A16058AD5009C0D75 /* Build configuration list for PBXProject "SimonSays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA2A2C2516058AD5009C0D75;
+			productRefGroup = CA2A2C3116058AD5009C0D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2A2C2F16058AD5009C0D75 /* SimonSays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2A2C2E16058AD5009C0D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C3F16058AD5009C0D75 /* InfoPlist.strings in Resources */,
+				CA2A2C4B16058AD5009C0D75 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2A2C2C16058AD5009C0D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A2C4116058AD5009C0D75 /* main.m in Sources */,
+				CA2A2C4516058AD5009C0D75 /* AppDelegate.m in Sources */,
+				CA2A2C4816058AD5009C0D75 /* ViewController.m in Sources */,
+				CA2A2C5316058B03009C0D75 /* ShapeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA2A2C3D16058AD5009C0D75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A2C3E16058AD5009C0D75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA2A2C4916058AD5009C0D75 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A2C4A16058AD5009C0D75 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2A2C4C16058AD5009C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA2A2C4D16058AD5009C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2A2C4F16058AD5009C0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimonSays/SimonSays-Prefix.pch";
+				INFOPLIST_FILE = "SimonSays/SimonSays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA2A2C5016058AD5009C0D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimonSays/SimonSays-Prefix.pch";
+				INFOPLIST_FILE = "SimonSays/SimonSays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA2A2C2A16058AD5009C0D75 /* Build configuration list for PBXProject "SimonSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A2C4C16058AD5009C0D75 /* Debug */,
+				CA2A2C4D16058AD5009C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2A2C4E16058AD5009C0D75 /* Build configuration list for PBXNativeTarget "SimonSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A2C4F16058AD5009C0D75 /* Debug */,
+				CA2A2C5016058AD5009C0D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA2A2C2716058AD5009C0D75 /* Project object */;
+}

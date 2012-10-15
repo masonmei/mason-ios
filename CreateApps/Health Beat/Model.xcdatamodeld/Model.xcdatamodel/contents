@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G56" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BasicInfo" syncable="YES"/>
+    <entity name="Record" syncable="YES"/>
+    <entity name="Relation" syncable="YES"/>
+    <entity name="Resource" syncable="YES"/>
+    <entity name="User" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="basicInfo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="BasicInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Relation" positionX="-81" positionY="198" width="128" height="45"/>
+        <element name="Record" positionX="169" positionY="423" width="128" height="45"/>
+        <element name="BasicInfo" positionX="412" positionY="90" width="128" height="45"/>
+        <element name="Resource" positionX="162" positionY="36" width="128" height="45"/>
+    </elements>
+</model>

@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD7CDBD162A423000F1872E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDBC162A423000F1872E /* UIKit.framework */; };
+		CAD7CDBF162A423000F1872E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDBE162A423000F1872E /* Foundation.framework */; };
+		CAD7CDC1162A423000F1872E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDC0162A423000F1872E /* CoreGraphics.framework */; };
+		CAD7CDC7162A423000F1872E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDC5162A423000F1872E /* InfoPlist.strings */; };
+		CAD7CDC9162A423000F1872E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CDC8162A423000F1872E /* main.m */; };
+		CAD7CDCD162A423000F1872E /* HBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CDCC162A423000F1872E /* HBAppDelegate.m */; };
+		CAD7CDCF162A423000F1872E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDCE162A423000F1872E /* Default.png */; };
+		CAD7CDD1162A423000F1872E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDD0162A423000F1872E /* Default@2x.png */; };
+		CAD7CDD3162A423000F1872E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDD2162A423000F1872E /* Default-568h@2x.png */; };
+		CAD7CDD6162A423000F1872E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDD4162A423000F1872E /* MainStoryboard.storyboard */; };
+		CAD7CDEC162A423000F1872E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDEB162A423000F1872E /* SenTestingKit.framework */; };
+		CAD7CDED162A423000F1872E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDBC162A423000F1872E /* UIKit.framework */; };
+		CAD7CDEE162A423000F1872E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7CDBE162A423000F1872E /* Foundation.framework */; };
+		CAD7CDF6162A423100F1872E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CDF4162A423100F1872E /* InfoPlist.strings */; };
+		CAD7CDF9162A423100F1872E /* Health_BeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CDF8162A423100F1872E /* Health_BeatTests.m */; };
+		CAD7CE0B162A47B900F1872E /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CE07162A47B900F1872E /* graph.png */; };
+		CAD7CE0C162A47B900F1872E /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CE08162A47B900F1872E /* graph@2x.png */; };
+		CAD7CE0D162A47B900F1872E /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CE09162A47B900F1872E /* plus.png */; };
+		CAD7CE0E162A47B900F1872E /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD7CE0A162A47B900F1872E /* plus@2x.png */; };
+		CAD7CE11162A497700F1872E /* HBEnterWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE10162A497700F1872E /* HBEnterWeightViewController.m */; };
+		CAD7CE14162A49AA00F1872E /* HBGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE13162A49AA00F1872E /* HBGraphViewController.m */; };
+		CAD7CE17162A49D400F1872E /* HBHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE16162A49D400F1872E /* HBHistoryViewController.m */; };
+		CAD7CE1A162A4A0500F1872E /* HBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE19162A4A0500F1872E /* HBDetailViewController.m */; };
+		CAD7CE1E162A5CA200F1872E /* HBWeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE1D162A5CA200F1872E /* HBWeightEntry.m */; };
+		CAD7CE23162A75F400F1872E /* HBWeightHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE22162A75F400F1872E /* HBWeightHistory.m */; };
+		CAD7CE26162A7AAB00F1872E /* HBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD7CE25162A7AAB00F1872E /* HBTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD7CDEF162A423000F1872E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD7CDAF162A423000F1872E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD7CDB7162A423000F1872E;
+			remoteInfo = "Health Beat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD7CDB8162A423000F1872E /* Health Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7CDBC162A423000F1872E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD7CDBE162A423000F1872E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD7CDC0162A423000F1872E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD7CDC4162A423000F1872E /* Health Beat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Health Beat-Info.plist"; sourceTree = "<group>"; };
+		CAD7CDC6162A423000F1872E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD7CDC8162A423000F1872E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD7CDCA162A423000F1872E /* Health Beat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Health Beat-Prefix.pch"; sourceTree = "<group>"; };
+		CAD7CDCB162A423000F1872E /* HBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAppDelegate.h; sourceTree = "<group>"; };
+		CAD7CDCC162A423000F1872E /* HBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAppDelegate.m; sourceTree = "<group>"; };
+		CAD7CDCE162A423000F1872E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAD7CDD0162A423000F1872E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CAD7CDD2162A423000F1872E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAD7CDD5162A423000F1872E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAD7CDEA162A423000F1872E /* Health BeatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health BeatTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD7CDEB162A423000F1872E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CAD7CDF3162A423100F1872E /* Health BeatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Health BeatTests-Info.plist"; sourceTree = "<group>"; };
+		CAD7CDF5162A423100F1872E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD7CDF7162A423100F1872E /* Health_BeatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Health_BeatTests.h; sourceTree = "<group>"; };
+		CAD7CDF8162A423100F1872E /* Health_BeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Health_BeatTests.m; sourceTree = "<group>"; };
+		CAD7CE07162A47B900F1872E /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		CAD7CE08162A47B900F1872E /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		CAD7CE09162A47B900F1872E /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		CAD7CE0A162A47B900F1872E /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		CAD7CE0F162A497700F1872E /* HBEnterWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBEnterWeightViewController.h; sourceTree = "<group>"; };
+		CAD7CE10162A497700F1872E /* HBEnterWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBEnterWeightViewController.m; sourceTree = "<group>"; };
+		CAD7CE12162A49AA00F1872E /* HBGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBGraphViewController.h; sourceTree = "<group>"; };
+		CAD7CE13162A49AA00F1872E /* HBGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBGraphViewController.m; sourceTree = "<group>"; };
+		CAD7CE15162A49D400F1872E /* HBHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHistoryViewController.h; sourceTree = "<group>"; };
+		CAD7CE16162A49D400F1872E /* HBHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHistoryViewController.m; sourceTree = "<group>"; };
+		CAD7CE18162A4A0500F1872E /* HBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBDetailViewController.h; sourceTree = "<group>"; };
+		CAD7CE19162A4A0500F1872E /* HBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBDetailViewController.m; sourceTree = "<group>"; };
+		CAD7CE1D162A5CA200F1872E /* HBWeightEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWeightEntry.m; sourceTree = "<group>"; };
+		CAD7CE1F162A5EE600F1872E /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/HBWeightEntry.h; sourceTree = "<group>"; };
+		CAD7CE21162A75F400F1872E /* HBWeightHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBWeightHistory.h; sourceTree = "<group>"; };
+		CAD7CE22162A75F400F1872E /* HBWeightHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWeightHistory.m; sourceTree = "<group>"; };
+		CAD7CE24162A7AAB00F1872E /* HBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTabBarController.h; sourceTree = "<group>"; };
+		CAD7CE25162A7AAB00F1872E /* HBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD7CDB5162A423000F1872E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDBD162A423000F1872E /* UIKit.framework in Frameworks */,
+				CAD7CDBF162A423000F1872E /* Foundation.framework in Frameworks */,
+				CAD7CDC1162A423000F1872E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7CDE6162A423000F1872E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDEC162A423000F1872E /* SenTestingKit.framework in Frameworks */,
+				CAD7CDED162A423000F1872E /* UIKit.framework in Frameworks */,
+				CAD7CDEE162A423000F1872E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD7CDAD162A423000F1872E = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDC2162A423000F1872E /* Health Beat */,
+				CAD7CDF1162A423000F1872E /* Health BeatTests */,
+				CAD7CDBB162A423000F1872E /* Frameworks */,
+				CAD7CDB9162A423000F1872E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD7CDB9162A423000F1872E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDB8162A423000F1872E /* Health Beat.app */,
+				CAD7CDEA162A423000F1872E /* Health BeatTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD7CDBB162A423000F1872E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDBC162A423000F1872E /* UIKit.framework */,
+				CAD7CDBE162A423000F1872E /* Foundation.framework */,
+				CAD7CDC0162A423000F1872E /* CoreGraphics.framework */,
+				CAD7CDEB162A423000F1872E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD7CDC2162A423000F1872E /* Health Beat */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDCB162A423000F1872E /* HBAppDelegate.h */,
+				CAD7CDCC162A423000F1872E /* HBAppDelegate.m */,
+				CAD7CDD4162A423000F1872E /* MainStoryboard.storyboard */,
+				CAD7CE06162A42EF00F1872E /* Controllers */,
+				CAD7CE04162A42C100F1872E /* Model */,
+				CAD7CE03162A429100F1872E /* Views */,
+				CAD7CE02162A428500F1872E /* Images */,
+				CAD7CDC3162A423000F1872E /* Supporting Files */,
+			);
+			path = "Health Beat";
+			sourceTree = "<group>";
+		};
+		CAD7CDC3162A423000F1872E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDC4162A423000F1872E /* Health Beat-Info.plist */,
+				CAD7CDC5162A423000F1872E /* InfoPlist.strings */,
+				CAD7CDC8162A423000F1872E /* main.m */,
+				CAD7CDCA162A423000F1872E /* Health Beat-Prefix.pch */,
+				CAD7CDCE162A423000F1872E /* Default.png */,
+				CAD7CDD0162A423000F1872E /* Default@2x.png */,
+				CAD7CDD2162A423000F1872E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD7CDF1162A423000F1872E /* Health BeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDF7162A423100F1872E /* Health_BeatTests.h */,
+				CAD7CDF8162A423100F1872E /* Health_BeatTests.m */,
+				CAD7CDF2162A423100F1872E /* Supporting Files */,
+			);
+			path = "Health BeatTests";
+			sourceTree = "<group>";
+		};
+		CAD7CDF2162A423100F1872E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CDF3162A423100F1872E /* Health BeatTests-Info.plist */,
+				CAD7CDF4162A423100F1872E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD7CE02162A428500F1872E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CE07162A47B900F1872E /* graph.png */,
+				CAD7CE08162A47B900F1872E /* graph@2x.png */,
+				CAD7CE09162A47B900F1872E /* plus.png */,
+				CAD7CE0A162A47B900F1872E /* plus@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CAD7CE03162A429100F1872E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CAD7CE04162A42C100F1872E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CE20162A5EE600F1872E /* HBWeightEntry.h */,
+				CAD7CE1D162A5CA200F1872E /* HBWeightEntry.m */,
+				CAD7CE21162A75F400F1872E /* HBWeightHistory.h */,
+				CAD7CE22162A75F400F1872E /* HBWeightHistory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CAD7CE06162A42EF00F1872E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7CE0F162A497700F1872E /* HBEnterWeightViewController.h */,
+				CAD7CE10162A497700F1872E /* HBEnterWeightViewController.m */,
+				CAD7CE12162A49AA00F1872E /* HBGraphViewController.h */,
+				CAD7CE13162A49AA00F1872E /* HBGraphViewController.m */,
+				CAD7CE15162A49D400F1872E /* HBHistoryViewController.h */,
+				CAD7CE16162A49D400F1872E /* HBHistoryViewController.m */,
+				CAD7CE18162A4A0500F1872E /* HBDetailViewController.h */,
+				CAD7CE19162A4A0500F1872E /* HBDetailViewController.m */,
+				CAD7CE24162A7AAB00F1872E /* HBTabBarController.h */,
+				CAD7CE25162A7AAB00F1872E /* HBTabBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD7CDB7162A423000F1872E /* Health Beat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7CDFC162A423100F1872E /* Build configuration list for PBXNativeTarget "Health Beat" */;
+			buildPhases = (
+				CAD7CDB4162A423000F1872E /* Sources */,
+				CAD7CDB5162A423000F1872E /* Frameworks */,
+				CAD7CDB6162A423000F1872E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health Beat";
+			productName = "Health Beat";
+			productReference = CAD7CDB8162A423000F1872E /* Health Beat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD7CDE9162A423000F1872E /* Health BeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD7CDFF162A423100F1872E /* Build configuration list for PBXNativeTarget "Health BeatTests" */;
+			buildPhases = (
+				CAD7CDE5162A423000F1872E /* Sources */,
+				CAD7CDE6162A423000F1872E /* Frameworks */,
+				CAD7CDE7162A423000F1872E /* Resources */,
+				CAD7CDE8162A423000F1872E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD7CDF0162A423000F1872E /* PBXTargetDependency */,
+			);
+			name = "Health BeatTests";
+			productName = "Health BeatTests";
+			productReference = CAD7CDEA162A423000F1872E /* Health BeatTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD7CDAF162A423000F1872E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = CAD7CDB2162A423000F1872E /* Build configuration list for PBXProject "Health Beat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD7CDAD162A423000F1872E;
+			productRefGroup = CAD7CDB9162A423000F1872E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD7CDB7162A423000F1872E /* Health Beat */,
+				CAD7CDE9162A423000F1872E /* Health BeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD7CDB6162A423000F1872E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDC7162A423000F1872E /* InfoPlist.strings in Resources */,
+				CAD7CDCF162A423000F1872E /* Default.png in Resources */,
+				CAD7CDD1162A423000F1872E /* Default@2x.png in Resources */,
+				CAD7CDD3162A423000F1872E /* Default-568h@2x.png in Resources */,
+				CAD7CDD6162A423000F1872E /* MainStoryboard.storyboard in Resources */,
+				CAD7CE0B162A47B900F1872E /* graph.png in Resources */,
+				CAD7CE0C162A47B900F1872E /* graph@2x.png in Resources */,
+				CAD7CE0D162A47B900F1872E /* plus.png in Resources */,
+				CAD7CE0E162A47B900F1872E /* plus@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7CDE7162A423000F1872E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDF6162A423100F1872E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAD7CDE8162A423000F1872E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD7CDB4162A423000F1872E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDC9162A423000F1872E /* main.m in Sources */,
+				CAD7CDCD162A423000F1872E /* HBAppDelegate.m in Sources */,
+				CAD7CE11162A497700F1872E /* HBEnterWeightViewController.m in Sources */,
+				CAD7CE14162A49AA00F1872E /* HBGraphViewController.m in Sources */,
+				CAD7CE17162A49D400F1872E /* HBHistoryViewController.m in Sources */,
+				CAD7CE1A162A4A0500F1872E /* HBDetailViewController.m in Sources */,
+				CAD7CE1E162A5CA200F1872E /* HBWeightEntry.m in Sources */,
+				CAD7CE23162A75F400F1872E /* HBWeightHistory.m in Sources */,
+				CAD7CE26162A7AAB00F1872E /* HBTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD7CDE5162A423000F1872E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD7CDF9162A423100F1872E /* Health_BeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD7CDF0162A423000F1872E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD7CDB7162A423000F1872E /* Health Beat */;
+			targetProxy = CAD7CDEF162A423000F1872E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD7CDC5162A423000F1872E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7CDC6162A423000F1872E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD7CDD4162A423000F1872E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7CDD5162A423000F1872E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD7CDF4162A423100F1872E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7CDF5162A423100F1872E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD7CE20162A5EE600F1872E /* HBWeightEntry.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD7CE1F162A5EE600F1872E /* en */,
+			);
+			name = HBWeightEntry.h;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD7CDFA162A423100F1872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAD7CDFB162A423100F1872E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD7CDFD162A423100F1872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Health Beat/Health Beat-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "Health Beat/Health Beat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD7CDFE162A423100F1872E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Health Beat/Health Beat-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "Health Beat/Health Beat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAD7CE00162A423100F1872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Health Beat.app/Health Beat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Health Beat/Health Beat-Prefix.pch";
+				INFOPLIST_FILE = "Health BeatTests/Health BeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAD7CE01162A423100F1872E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Health Beat.app/Health Beat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Health Beat/Health Beat-Prefix.pch";
+				INFOPLIST_FILE = "Health BeatTests/Health BeatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD7CDB2162A423000F1872E /* Build configuration list for PBXProject "Health Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7CDFA162A423100F1872E /* Debug */,
+				CAD7CDFB162A423100F1872E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD7CDFC162A423100F1872E /* Build configuration list for PBXNativeTarget "Health Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7CDFD162A423100F1872E /* Debug */,
+				CAD7CDFE162A423100F1872E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD7CDFF162A423100F1872E /* Build configuration list for PBXNativeTarget "Health BeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD7CE00162A423100F1872E /* Debug */,
+				CAD7CE01162A423100F1872E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD7CDAF162A423000F1872E /* Project object */;
+}
