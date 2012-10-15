@@ -10,7 +10,13 @@
 
 @class HBWeightHistory;
 
-@interface HBEnterWeightViewController : UIViewController
-@property (nonatomic, strong) HBWeightHistory* weightHistory;
+@interface HBEnterWeightViewController : UIViewController <UITextFieldDelegate>
 
+@property (nonatomic, strong) HBWeightHistory* weightHistory;
+@property (strong, nonatomic) IBOutlet UITextField *weightTextField;
+@property (strong, nonatomic) IBOutlet UILabel *dateLabel;
+@property (strong, nonatomic) UIButton* unitsButton;
+
+- (IBAction)saveWeight:(id)sender;
+- (IBAction)changeUnits:(id)sender;
 @end
