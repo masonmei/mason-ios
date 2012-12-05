@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="HU8-om-n8I">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uMN-pB-aDT">
+            <objects>
+                <viewController id="HU8-om-n8I" customClass="FSViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nET-r5-uei">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ls4-qw-B1L">
+                                <items>
+                                    <barButtonItem title="Share" id="kmZ-E6-DOt"/>
+                                </items>
+                            </toolbar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-IM-elR">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5IT-VB-GQK"/>
+                                    <constraint firstAttribute="width" constant="347" id="MuR-kO-wGL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="HU8-om-n8I" id="ReA-Xi-Hw6"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="search_text.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Yl-Kb-hyK">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="f4F-k1-mlN"/>
+                                    <constraint firstAttribute="width" constant="143" id="qg0-sy-hKX"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" image="divider_bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="9AF-9F-Z24">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="721" id="AX5-N6-JB0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ls4-qw-B1L" firstAttribute="top" secondItem="nET-r5-uei" secondAttribute="top" type="default" id="Ads-Eq-JIM"/>
+                            <constraint firstItem="1Yl-Kb-hyK" firstAttribute="top" secondItem="nET-r5-uei" secondAttribute="top" constant="65" id="CnF-Yl-slA"/>
+                            <constraint firstItem="5vA-IM-elR" firstAttribute="top" secondItem="nET-r5-uei" secondAttribute="top" constant="62" id="I8W-Q8-Ash"/>
+                            <constraint firstItem="1Yl-Kb-hyK" firstAttribute="leading" secondItem="nET-r5-uei" secondAttribute="leading" constant="130" id="c5d-YN-4fX"/>
+                            <constraint firstItem="ls4-qw-B1L" firstAttribute="leading" secondItem="nET-r5-uei" secondAttribute="leading" type="default" id="cBP-re-2Bh"/>
+                            <constraint firstItem="ls4-qw-B1L" firstAttribute="trailing" secondItem="nET-r5-uei" secondAttribute="trailing" type="default" id="cim-BV-BbA"/>
+                            <constraint firstItem="5vA-IM-elR" firstAttribute="leading" secondItem="1Yl-Kb-hyK" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="fEp-4z-eiK"/>
+                            <constraint firstItem="9AF-9F-Z24" firstAttribute="top" secondItem="nET-r5-uei" secondAttribute="top" constant="107" id="q1w-mq-ehA"/>
+                            <constraint firstAttribute="trailing" secondItem="9AF-9F-Z24" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="rld-v0-LUz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sharedButton" destination="kmZ-E6-DOt" id="hsD-SN-Tm0"/>
+                        <outlet property="textField" destination="5vA-IM-elR" id="64u-mQ-WE6"/>
+                        <outlet property="toolbar" destination="ls4-qw-B1L" id="nLK-Vz-ksD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cu7-Qj-rfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="-242"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="divider_bar.png" width="697" height="13"/>
+        <image name="search_text.png" width="97" height="25"/>
+    </resources>
+    <classes>
+        <class className="FSViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FSViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="shareButtonTapped:"/>
+                <relationship kind="outlet" name="sharedButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

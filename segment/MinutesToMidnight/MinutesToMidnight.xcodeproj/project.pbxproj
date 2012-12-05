@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		939A0E7C16679BEC006B3C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939A0E7B16679BEC006B3C1E /* UIKit.framework */; };
+		939A0E7E16679BEC006B3C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939A0E7D16679BEC006B3C1E /* Foundation.framework */; };
+		939A0E8016679BEC006B3C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939A0E7F16679BEC006B3C1E /* CoreGraphics.framework */; };
+		939A0E8616679BEC006B3C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939A0E8416679BEC006B3C1E /* InfoPlist.strings */; };
+		939A0E8816679BEC006B3C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A0E8716679BEC006B3C1E /* main.m */; };
+		939A0E8C16679BEC006B3C1E /* MTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A0E8B16679BEC006B3C1E /* MTMAppDelegate.m */; };
+		939A0E8E16679BEC006B3C1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A0E8D16679BEC006B3C1E /* Default.png */; };
+		939A0E9016679BEC006B3C1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A0E8F16679BEC006B3C1E /* Default@2x.png */; };
+		939A0E9216679BEC006B3C1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939A0E9116679BEC006B3C1E /* Default-568h@2x.png */; };
+		939A0E9516679BED006B3C1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939A0E9316679BEC006B3C1E /* MainStoryboard.storyboard */; };
+		939A0E9816679BED006B3C1E /* MTMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939A0E9716679BED006B3C1E /* MTMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		939A0E7716679BEC006B3C1E /* MinutesToMidnight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinutesToMidnight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939A0E7B16679BEC006B3C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		939A0E7D16679BEC006B3C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		939A0E7F16679BEC006B3C1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		939A0E8316679BEC006B3C1E /* MinutesToMidnight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinutesToMidnight-Info.plist"; sourceTree = "<group>"; };
+		939A0E8516679BEC006B3C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		939A0E8716679BEC006B3C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		939A0E8916679BEC006B3C1E /* MinutesToMidnight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MinutesToMidnight-Prefix.pch"; sourceTree = "<group>"; };
+		939A0E8A16679BEC006B3C1E /* MTMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMAppDelegate.h; sourceTree = "<group>"; };
+		939A0E8B16679BEC006B3C1E /* MTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMAppDelegate.m; sourceTree = "<group>"; };
+		939A0E8D16679BEC006B3C1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		939A0E8F16679BEC006B3C1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		939A0E9116679BEC006B3C1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		939A0E9416679BED006B3C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		939A0E9616679BED006B3C1E /* MTMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTMViewController.h; sourceTree = "<group>"; };
+		939A0E9716679BED006B3C1E /* MTMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939A0E7416679BEC006B3C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939A0E7C16679BEC006B3C1E /* UIKit.framework in Frameworks */,
+				939A0E7E16679BEC006B3C1E /* Foundation.framework in Frameworks */,
+				939A0E8016679BEC006B3C1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939A0E6C16679BEC006B3C1E = {
+			isa = PBXGroup;
+			children = (
+				939A0E8116679BEC006B3C1E /* MinutesToMidnight */,
+				939A0E7A16679BEC006B3C1E /* Frameworks */,
+				939A0E7816679BEC006B3C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939A0E7816679BEC006B3C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939A0E7716679BEC006B3C1E /* MinutesToMidnight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939A0E7A16679BEC006B3C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939A0E7B16679BEC006B3C1E /* UIKit.framework */,
+				939A0E7D16679BEC006B3C1E /* Foundation.framework */,
+				939A0E7F16679BEC006B3C1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		939A0E8116679BEC006B3C1E /* MinutesToMidnight */ = {
+			isa = PBXGroup;
+			children = (
+				939A0E8A16679BEC006B3C1E /* MTMAppDelegate.h */,
+				939A0E8B16679BEC006B3C1E /* MTMAppDelegate.m */,
+				939A0E9316679BEC006B3C1E /* MainStoryboard.storyboard */,
+				939A0E9616679BED006B3C1E /* MTMViewController.h */,
+				939A0E9716679BED006B3C1E /* MTMViewController.m */,
+				939A0E8216679BEC006B3C1E /* Supporting Files */,
+			);
+			path = MinutesToMidnight;
+			sourceTree = "<group>";
+		};
+		939A0E8216679BEC006B3C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				939A0E8316679BEC006B3C1E /* MinutesToMidnight-Info.plist */,
+				939A0E8416679BEC006B3C1E /* InfoPlist.strings */,
+				939A0E8716679BEC006B3C1E /* main.m */,
+				939A0E8916679BEC006B3C1E /* MinutesToMidnight-Prefix.pch */,
+				939A0E8D16679BEC006B3C1E /* Default.png */,
+				939A0E8F16679BEC006B3C1E /* Default@2x.png */,
+				939A0E9116679BEC006B3C1E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939A0E7616679BEC006B3C1E /* MinutesToMidnight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939A0E9B16679BED006B3C1E /* Build configuration list for PBXNativeTarget "MinutesToMidnight" */;
+			buildPhases = (
+				939A0E7316679BEC006B3C1E /* Sources */,
+				939A0E7416679BEC006B3C1E /* Frameworks */,
+				939A0E7516679BEC006B3C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinutesToMidnight;
+			productName = MinutesToMidnight;
+			productReference = 939A0E7716679BEC006B3C1E /* MinutesToMidnight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939A0E6E16679BEC006B3C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mason Mei";
+			};
+			buildConfigurationList = 939A0E7116679BEC006B3C1E /* Build configuration list for PBXProject "MinutesToMidnight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 939A0E6C16679BEC006B3C1E;
+			productRefGroup = 939A0E7816679BEC006B3C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939A0E7616679BEC006B3C1E /* MinutesToMidnight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939A0E7516679BEC006B3C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939A0E8616679BEC006B3C1E /* InfoPlist.strings in Resources */,
+				939A0E8E16679BEC006B3C1E /* Default.png in Resources */,
+				939A0E9016679BEC006B3C1E /* Default@2x.png in Resources */,
+				939A0E9216679BEC006B3C1E /* Default-568h@2x.png in Resources */,
+				939A0E9516679BED006B3C1E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939A0E7316679BEC006B3C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939A0E8816679BEC006B3C1E /* main.m in Sources */,
+				939A0E8C16679BEC006B3C1E /* MTMAppDelegate.m in Sources */,
+				939A0E9816679BED006B3C1E /* MTMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		939A0E8416679BEC006B3C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939A0E8516679BEC006B3C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		939A0E9316679BEC006B3C1E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				939A0E9416679BED006B3C1E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		939A0E9916679BED006B3C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		939A0E9A16679BED006B3C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939A0E9C16679BED006B3C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesToMidnight/MinutesToMidnight-Prefix.pch";
+				INFOPLIST_FILE = "MinutesToMidnight/MinutesToMidnight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		939A0E9D16679BED006B3C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MinutesToMidnight/MinutesToMidnight-Prefix.pch";
+				INFOPLIST_FILE = "MinutesToMidnight/MinutesToMidnight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939A0E7116679BEC006B3C1E /* Build configuration list for PBXProject "MinutesToMidnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939A0E9916679BED006B3C1E /* Debug */,
+				939A0E9A16679BED006B3C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939A0E9B16679BED006B3C1E /* Build configuration list for PBXNativeTarget "MinutesToMidnight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939A0E9C16679BED006B3C1E /* Debug */,
+				939A0E9D16679BED006B3C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939A0E6E16679BEC006B3C1E /* Project object */;
+}
