@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ADViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4d-lq-Phh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="nbU-QS-Eix"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="recordPauseTapped:" destination="2" eventType="touchUpInside" id="uV6-Wa-1TK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESD-Xa-tKx">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopTapped:" destination="2" eventType="touchUpInside" id="sOT-X9-XkT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xa8-pU-mW1">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playTapped:" destination="2" eventType="touchUpInside" id="Lbv-JE-R9f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G4d-lq-Phh" firstAttribute="top" secondItem="3" secondAttribute="top" constant="134" id="8zj-fB-6my"/>
+                            <constraint firstItem="G4d-lq-Phh" firstAttribute="trailing" secondItem="ESD-Xa-tKx" secondAttribute="trailing" type="default" id="HIm-oS-xbU"/>
+                            <constraint firstItem="xa8-pU-mW1" firstAttribute="top" secondItem="ESD-Xa-tKx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="k8O-rq-ime"/>
+                            <constraint firstItem="ESD-Xa-tKx" firstAttribute="top" secondItem="G4d-lq-Phh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="kSj-CZ-bcj"/>
+                            <constraint firstItem="ESD-Xa-tKx" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="kmF-70-RoQ"/>
+                            <constraint firstItem="ESD-Xa-tKx" firstAttribute="trailing" secondItem="xa8-pU-mW1" secondAttribute="trailing" type="default" id="lAI-08-bgk"/>
+                            <constraint firstItem="G4d-lq-Phh" firstAttribute="leading" secondItem="ESD-Xa-tKx" secondAttribute="leading" type="default" id="qdn-yq-LID"/>
+                            <constraint firstItem="xa8-pU-mW1" firstAttribute="leading" secondItem="ESD-Xa-tKx" secondAttribute="leading" type="default" id="yrb-pq-yyE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="xa8-pU-mW1" id="0fk-ML-U2S"/>
+                        <outlet property="recordPauseButton" destination="G4d-lq-Phh" id="1ld-lX-PGd"/>
+                        <outlet property="stopButton" destination="ESD-Xa-tKx" id="D4f-pC-I4X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ADViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ADViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="playTapped:"/>
+                <relationship kind="action" name="recordPauseTapped:"/>
+                <relationship kind="action" name="stopTapped:"/>
+                <relationship kind="outlet" name="playButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="recordPauseButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="stopButton" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
