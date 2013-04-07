@@ -205,6 +205,7 @@
 				93590AB616D7BD6B00BF6159 /* Sources */,
 				93590AB716D7BD6B00BF6159 /* Frameworks */,
 				93590AB816D7BD6B00BF6159 /* Resources */,
+				93D599AE16E7269000617A15 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -278,6 +279,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93D599AE16E7269000617A15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# the starting of the script\nexport\nCODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\n\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n    /Applications/Xcode.app/Contents/Developer/iphoneentitlements/gen_entitlements.py \"org.personal.mason.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\n    codesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi\n# the ending of script\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93590AB616D7BD6B00BF6159 /* Sources */ = {
@@ -373,6 +390,8 @@
 		93590ADE16D7BD6B00BF6159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecipePhoto/RecipePhoto-Prefix.pch";
 				INFOPLIST_FILE = "RecipePhoto/RecipePhoto-Info.plist";
@@ -384,6 +403,8 @@
 		93590ADF16D7BD6B00BF6159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RecipePhoto/RecipePhoto-Prefix.pch";
 				INFOPLIST_FILE = "RecipePhoto/RecipePhoto-Info.plist";
