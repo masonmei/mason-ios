@@ -86,11 +86,6 @@
 		CAB5ADEA16A696660066A960 = {
 			isa = PBXGroup;
 			children = (
-				CAB5AE3216A698CA0066A960 /* AdSupport.framework */,
-				CAB5AE3016A698B60066A960 /* SystemConfiguration.framework */,
-				CAB5AE2E16A698AC0066A960 /* MessageUI.framework */,
-				CAB5AE2C16A698A40066A960 /* AudioToolbox.framework */,
-				CAB5AE2A16A698970066A960 /* StoreKit.framework */,
 				CAB5AE2916A698120066A960 /* GoogleAdMobAdsSDK */,
 				CAB5ADFF16A696660066A960 /* ADMobStudy */,
 				CAB5ADF816A696660066A960 /* Frameworks */,
@@ -109,6 +104,11 @@
 		CAB5ADF816A696660066A960 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAB5AE3216A698CA0066A960 /* AdSupport.framework */,
+				CAB5AE3016A698B60066A960 /* SystemConfiguration.framework */,
+				CAB5AE2E16A698AC0066A960 /* MessageUI.framework */,
+				CAB5AE2C16A698A40066A960 /* AudioToolbox.framework */,
+				CAB5AE2A16A698970066A960 /* StoreKit.framework */,
 				CAB5ADF916A696660066A960 /* UIKit.framework */,
 				CAB5ADFB16A696660066A960 /* Foundation.framework */,
 				CAB5ADFD16A696660066A960 /* CoreGraphics.framework */,
