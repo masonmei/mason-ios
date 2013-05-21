@@ -9,7 +9,9 @@
 #import "INetWorkingViewController.h"
 #import "IReachability.h"
 
-@interface INetWorkingViewController ()
+@interface INetWorkingViewController (){
+    IReachability *reachability;
+}
 
 @end
 
@@ -49,8 +51,18 @@
     [self showAlertWithTitle:@"Current Network" andMsg:msgString];
 }
 
+- (IBAction)startNotifyNetworkChange:(id)sender {
+    reachability = [IReachability reachabilityForInternetConnection];
+    [reachability startNotifier];
+}
+
+- (IBAction)stopNotifyNetworkChange:(id)sender {
+    [reachability stopNotifier];
+}
+
 -(void) handleNetworkingChange:(NSNotification *)notification{
     IReachability *iReachability = [notification object];
+    NSParameterAssert([iReachability isKindOfClass:[IReachability class]]);
     NetworkStatus status = [iReachability currentReachabilityStatus];
     NSString *msg = nil;
     switch (status) {

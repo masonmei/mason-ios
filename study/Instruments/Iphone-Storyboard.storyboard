@@ -25,11 +25,43 @@
                                     <action selector="checkNetworking:" destination="UCF-yb-28S" eventType="touchUpInside" id="AiM-qn-1rd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNi-wm-8rx">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start Notifier">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startNotifyNetworkChange:" destination="UCF-yb-28S" eventType="touchUpInside" id="JMv-7M-WEr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frw-Iy-2pp">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Stop Notifier">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopNotifyNetworkChange:" destination="UCF-yb-28S" eventType="touchUpInside" id="QZm-lP-h4m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gx2-2I-371" firstAttribute="top" secondItem="TOj-ek-XwR" secondAttribute="top" constant="252" id="Xuq-uJ-OON"/>
-                            <constraint firstItem="gx2-2I-371" firstAttribute="centerX" secondItem="TOj-ek-XwR" secondAttribute="centerX" type="default" id="dby-8A-6lb"/>
+                            <constraint firstItem="gx2-2I-371" firstAttribute="top" secondItem="TOj-ek-XwR" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Ejd-YV-jY4"/>
+                            <constraint firstItem="SNi-wm-8rx" firstAttribute="centerX" secondItem="TOj-ek-XwR" secondAttribute="centerX" type="default" id="Rtg-Zo-4ph"/>
+                            <constraint firstItem="gx2-2I-371" firstAttribute="trailing" secondItem="SNi-wm-8rx" secondAttribute="trailing" type="default" id="Sbi-75-Par"/>
+                            <constraint firstItem="SNi-wm-8rx" firstAttribute="top" secondItem="gx2-2I-371" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="XCR-p6-ddO"/>
+                            <constraint firstItem="Frw-Iy-2pp" firstAttribute="leading" secondItem="SNi-wm-8rx" secondAttribute="leading" type="default" id="Ztx-kR-Pjo"/>
+                            <constraint firstItem="SNi-wm-8rx" firstAttribute="leading" secondItem="gx2-2I-371" secondAttribute="leading" type="default" id="b19-FH-sv9"/>
+                            <constraint firstItem="SNi-wm-8rx" firstAttribute="trailing" secondItem="Frw-Iy-2pp" secondAttribute="trailing" type="default" id="f7y-a8-eWh"/>
+                            <constraint firstItem="Frw-Iy-2pp" firstAttribute="top" secondItem="SNi-wm-8rx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="heB-Oq-Ozj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -43,7 +75,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/INetWorkingViewController.h"/>
             <relationships>
                 <relationship kind="action" name="checkNetworking:"/>
-                <relationship kind="outlet" name="checkNetworking" candidateClass="UIButton"/>
+                <relationship kind="action" name="startNotifyNetworkChange:"/>
+                <relationship kind="action" name="stopNotifyNetworkChange:"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

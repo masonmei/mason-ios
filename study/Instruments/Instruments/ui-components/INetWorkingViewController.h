@@ -11,4 +11,7 @@
 @interface INetWorkingViewController : UIViewController
 
 - (IBAction)checkNetworking:(id)sender;
+- (IBAction)startNotifyNetworkChange:(id)sender;
+- (IBAction)stopNotifyNetworkChange:(id)sender;
+
 @end
