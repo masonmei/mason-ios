@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="myK-JH-GDc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - View-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="HGViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Alien.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ysy-zK-DCd"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhe-fS-pFE">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find Girl">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VdT-Yn-Gcm" kind="custom" identifier="ShowGirlView" customClass="HGCustomGirlSegue" id="vwn-f5-GJD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Status will appear here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DX-UG-lPR">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Say something to the Girl" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zpF-qT-x9f">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="lTv-0a-dIK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="U8p-ly-lZd"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5DX-UG-lPR" firstAttribute="centerX" secondItem="xhe-fS-pFE" secondAttribute="centerX" type="default" id="01E-s9-UAo"/>
+                            <constraint firstItem="Ysy-zK-DCd" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="7eZ-tz-JiK"/>
+                            <constraint firstAttribute="bottom" secondItem="5DX-UG-lPR" secondAttribute="bottom" constant="148" id="B4o-cF-UbB"/>
+                            <constraint firstItem="Ysy-zK-DCd" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="CbA-Mz-366"/>
+                            <constraint firstItem="zpF-qT-x9f" firstAttribute="centerX" secondItem="Ysy-zK-DCd" secondAttribute="centerX" type="default" id="GnJ-y4-dHw"/>
+                            <constraint firstItem="zpF-qT-x9f" firstAttribute="top" secondItem="3" secondAttribute="top" constant="153" id="LKK-b2-jum"/>
+                            <constraint firstItem="5DX-UG-lPR" firstAttribute="top" secondItem="xhe-fS-pFE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LxP-zY-EFj"/>
+                            <constraint firstItem="Ysy-zK-DCd" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="eAq-fp-kuF"/>
+                            <constraint firstItem="zpF-qT-x9f" firstAttribute="centerX" secondItem="xhe-fS-pFE" secondAttribute="centerX" type="default" id="gBm-3m-rsx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="View" id="xGX-vk-d7u"/>
+                    <connections>
+                        <outlet property="lblFindStaus" destination="5DX-UG-lPR" id="VuH-Wo-ttt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="51"/>
+        </scene>
+        <!--Girl View Controller - Girl View-->
+        <scene sceneID="fui-gn-u2E">
+            <objects>
+                <viewController id="VdT-Yn-Gcm" customClass="HGGirlViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8VL-bu-VyJ">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Alien Face.png" translatesAutoresizingMaskIntoConstraints="NO" id="GJi-iG-ltM"/>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RKk-zd-ahr">
+                                <connections>
+                                    <action selector="onSwitchValueChanged:" destination="VdT-Yn-Gcm" eventType="valueChanged" id="BSE-YR-xKq"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Can I been seen?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wR4-pV-2w5">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSc-HC-J9T">
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GJi-iG-ltM" firstAttribute="top" secondItem="8VL-bu-VyJ" secondAttribute="top" type="default" id="A2c-dV-A5Q"/>
+                            <constraint firstAttribute="trailing" secondItem="RKk-zd-ahr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Fv3-NU-4JR"/>
+                            <constraint firstItem="oSc-HC-J9T" firstAttribute="centerX" secondItem="GJi-iG-ltM" secondAttribute="centerX" type="default" id="YJz-PH-tWS"/>
+                            <constraint firstItem="GJi-iG-ltM" firstAttribute="bottom" secondItem="8VL-bu-VyJ" secondAttribute="bottom" type="default" id="cau-9D-KZI"/>
+                            <constraint firstAttribute="bottom" secondItem="oSc-HC-J9T" secondAttribute="bottom" constant="204" id="ecp-Og-oPU"/>
+                            <constraint firstItem="RKk-zd-ahr" firstAttribute="leading" secondItem="wR4-pV-2w5" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="fQ1-b1-4Kg"/>
+                            <constraint firstItem="wR4-pV-2w5" firstAttribute="centerY" secondItem="RKk-zd-ahr" secondAttribute="centerY" type="default" id="jOR-g3-DA3"/>
+                            <constraint firstItem="GJi-iG-ltM" firstAttribute="leading" secondItem="8VL-bu-VyJ" secondAttribute="leading" type="default" id="nh0-N9-Lce"/>
+                            <constraint firstAttribute="bottom" secondItem="RKk-zd-ahr" secondAttribute="bottom" constant="136" id="oDS-TD-tyX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Girl View" id="vbi-y9-TJP"/>
+                    <connections>
+                        <outlet property="lblMsgForGirl" destination="oSc-HC-J9T" id="uN5-gy-pAg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qo9-kY-iRv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1175" y="47"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BqX-XY-NcZ">
+            <objects>
+                <navigationController id="myK-JH-GDc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lux-sf-Y1O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="1LT-Lh-zCR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hH4-mQ-Zbp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="289" y="51"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alien Face.png" width="320" height="416"/>
+        <image name="Alien.png" width="320" height="416"/>
+    </resources>
+    <classes>
+        <class className="HGGirlViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGGirlViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="onSwitchValueChanged:"/>
+                <relationship kind="outlet" name="lblMsgForGirl" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="HGViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HGViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lblFindStaus" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
